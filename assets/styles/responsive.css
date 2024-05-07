@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1024px) {
+  .heading-primary {
+    font-size: 60px;
+  }
+
+  .heading-secondary {
+    font-size: 50px;
+  }
+
+  .heading-secondary {
+    text-align: center;
+  }
+
+  .header-content {
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading-info {
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .header-content img {
+    /* width: 450px; */
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+    align-self: flex-end;
+    opacity: 10%;
+  }
+
+  /*  */
+  .featured-flowers {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .featured-flowers .item .flower {
+    height: 300px;
+  }
+
+  /*  */
+  .promo-section .promo-info {
+    text-align: center;
+  }
+
+  .subscribe-section input[type="email"] {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heading-primary {
+    font-size: 40px;
+  }
+  .heading-secondary {
+    font-size: 30px;
+  }
+
+  .header-content img {
+    height: 50%;
+  }
+
+  .featured-flowers {
+    gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featured-flowers .item .flower {
+    height: 400px;
+  }
+
+  .featured-section .text-primary {
+    width: auto;
+  }
+
+  /*  */
+  .why-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /*  */
+  .promo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .promo-section .promo-info {
+    width: auto;
+  }
+
+  .instagram-section .text-primary {
+    width: auto;
+  }
+
+  .subscribe-section form {
+    flex-direction: column;
+  }
+
+  /*  */
+
+  .footer p {
+    width: auto;
+    text-align: center;
+  }
+}
